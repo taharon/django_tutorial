@@ -12,4 +12,5 @@ urlpatterns = [
   # [kwargs] optional, a dictionary of arguments passed to the view
   # [name]  optional, lets you name your view, which apparently lets you refer to it elsewhere
   path('', views.index, name='index'),
+
 ]
